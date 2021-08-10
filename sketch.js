@@ -1,13 +1,7 @@
 
 function preload(){
-  bg1=loadImage("image/bg1.jpg")
-  /*dog=loadImage("dog.jpg")
-  kong=loadImage("kong.jpg")
-  obstacles=loadImage("obstacles.jpg")
- obstacles1=loadImage("obstacles1.jpg")
- panda=loadImage("panda.jpg")
- squirrel=loadImage("squirrel.jpg")
- 
+  bg1=loadImage("bg1.jpeg")
+
  leopardImage=loadAnimation("leopard/tile000.png","leopard/tile001.png","leopard/tile002.png",
  "leopard/tile003.png","leopard/tile004.png","leopard/tile005.png","leopard/tile006.png",
  "leopard/tile007.png","leopard/tile008.png","leopard/tile009.png",
@@ -24,7 +18,7 @@ function preload(){
  "cat/tile007.png","cat/tile008.png","cat/tile009.png",
  "cat/tile010.png","cat/tile011.png")
 
-   */ 
+  
 
 }
 
@@ -37,9 +31,9 @@ function setup() {
   cat=createSprite(100,540)
 
 
-  //lion.addAnimation("lion",lionImage)
-  //cat.addAnimation("cat",catImage)
-  //leopard.addAnimation("leopard",leopardImage)
+  lion.addAnimation("lion",lionImage)
+  cat.addAnimation("cat",catImage)
+  leopard.addAnimation("leopard",leopardImage)
 }
 
 function draw() {
